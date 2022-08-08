@@ -1,0 +1,33 @@
+body {
+background-image:url("./wanted2.jpg");
+background-size: 70px 70px;
+
+}
+.divah{
+    background-image:url("./harry.jpg");
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+    margin: 30px;
+    padding: 50px;
+}
+.divoh{
+    background-image:url("./sirius3.jpeg");
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+    margin: 30px;
+    padding: 50px;
+}
+
+.edwiges{
+    font-size: larger;
+    text-transform: uppercase;
+    color:antiquewhite;
+}
+.alorromora{
+    font-size: medium;
+    color:aliceblue ;
+    margin-right: 500px;
+    text-align: justify;
+}

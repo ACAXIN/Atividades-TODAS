@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Atividade 7</title>
+</head>
+<body>
+    <header class="cabeca">
+        <h1 class="titulo1">Todas as Letras Escola</h1>
+        <nav class="navio">
+          <ul class="menu">
+            <li class="casa">
+              <a class="casa" href="#">Home</a>
+            </li>
+            <li class="casa">
+              <a  class="casa" href="#">Sobre</a>
+            </li>
+            <li class="casa">
+              <a  class="casa" href="#">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="Todas">
+          <h2 class="titulo2">Inscreva-se</h2>
+          <p class="paragrafo">Preencha todos os campos abaixo. Todos campos são obrigatórios:</p>
+          <form>
+            <div class="divah">
+              <label for="nome">Nome:</label>
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Seu primeiro nome"
+                required
+              />
+            </div>
+            <div class="divah">
+              <label for="sobrenome">Sobrenome:</label>
+              <input
+                type="text"
+                name="sobrenome"
+                id="sobrenome"
+                placeholder="Seu sobrenome"
+                required
+              />
+            </div>
+            <div class="divah">
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="seuemail@seuprovedor.com"
+                required
+              />
+            </div>
+            <div class="divah">
+              <label for="senha">Senha:</label>
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                placeholder="Sua senha"
+                required
+              />
+            </div>
+            <div class="divah">
+              <label for="idade">Idade:</label>
+              <input
+                type="number"
+                name="idade"
+                id="idade"
+                placeholder="Sua idade"
+                required
+              />
+            </div>
+            <div class="divah">
+              <label for="categoria">Selecione uma categoria:</label>
+              <select name="categoria" id="categoria" required>
+                <option disabled selected>Selecione uma opção</option>
+                <option value="a">Categoria A</option>
+                <option value="b">Categoria B</option>
+              </select>
+            </div>
+            <div class="divoh">
+              <button class="envio">Enviar</button>
+              <button class="limpar" type="reset">Limpar</button>
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer class="calcanhar">
+        <span class="dedinho">Todos os direitos reservados.</span>
+      </footer>
+</body>
+</html>

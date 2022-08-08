@@ -1,0 +1,62 @@
+:root{
+    background-color: #FFDEAD;
+}
+
+header .container{
+    color: black;   
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+   
+   
+
+}
+header .imagem1{
+    
+    border-radius: 50%;
+    
+   
+
+}
+
+header .texto1{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    border-bottom: 100px;
+   
+
+}
+header .redes{
+    background-color: rgba(0, 0, 0, .50);
+    border: none ;
+    color: white;
+
+    padding:15px 30px;
+    margin-right:15px;
+    font-size:12px;
+    font-weight: bold;
+    border-radius: 15px;
+    
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+.redes:hover{
+    background-color:white;
+    color:black;
+}
+
+body .surda{
+    color: black;   
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+
+body .imagem2{
+    border-radius:15px;
+}

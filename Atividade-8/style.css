@@ -1,0 +1,85 @@
+body{
+    background-color:#F3F3F3;
+    font-family:'Inter', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+/*Header*/
+
+.cabeca{
+    background-color:#2D0064;
+    padding:40px;
+}
+.titulo {
+    color:white;
+    font-weight: 700;
+    font-size:40px;
+}
+
+.cavidade{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+
+}
+
+/*Main*/
+
+.esqueleto{
+   margin:40px;
+    display:flex;
+}
+
+.torso{
+    background-color: #FFFFFF;
+    padding:60px;
+    text-align: justify;
+    margin-right:40px;
+}
+
+.titulo2{
+    font-weight: 700;
+    font-size:25px;
+    margin-top:0px;
+}
+.paragrafo1{
+    font-weight: 400;
+    font-size:16px;
+    margin-top:0px;
+}
+
+/*Aside*/
+
+.bracos{
+    background-color: #FFFFFF;
+     padding:40px;
+     width:260px;
+}
+.titulo3{
+    font-weight: 700;
+    font-size:20px;
+}
+.titulo4{
+    font-weight:700;
+    font-size:16px;
+}
+.paragrafo2{
+    font-weight:400;
+    font-size:14px;
+}
+
+/*Footer*/
+
+.calcanhar{
+    background-color:  #4D03A8;
+
+    padding:40px;
+}
+
+.dedinho{
+    color:white;
+    font-weight: 400;
+    font-size:12px;
+}

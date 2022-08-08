@@ -1,0 +1,121 @@
+body{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+
+}
+.cabeca{
+    height: 220px;
+    background-color: #2f117f;
+    background-position: 100%;
+    background-size: contain;
+    padding:20px;
+
+    
+}
+
+.titulo1{
+    color: #ffffff;
+    font-weight:900;
+    font-size:30px;
+
+}
+
+.navio{
+    background-color:#6126ff;    
+    width: 100px;    
+}
+
+.menu{
+    list-style-type: none;  
+    margin:0px;
+    padding:0px;
+   
+}
+
+.casa{
+    color:#ffffff;
+    text-decoration: none;  
+    font-weight:400;
+    line-height: 45px;
+    padding:3px;
+}
+
+.Todas{
+    background-color:#ffffff;
+    height: 500px;
+    padding:20px;
+
+    
+}
+
+.titulo2{
+    font-weight: 900;
+    font-size:30px;
+    margin:0px;    
+}
+
+.paragrafo{
+    font-weight: 400;
+    font-size:16px;
+}
+
+
+.divah{
+    font-size: 14px;
+    padding:10px;
+
+}
+
+input{
+    padding:10px;
+    border-color:#6126ff;
+    border-radius:5px;
+}
+
+select{
+    padding:10px;
+    border-width: 2px;
+    border-color:#6126ff;
+    border-radius:5px;
+}
+
+option, select{
+    color:#6126ff;
+}
+
+.divoh{
+    margin-left:10px;
+}
+
+button{
+    cursor: pointer;
+    padding:10px;
+    font-size:15px;
+    border-radius:5px;
+    border-width:0;
+    font-weight: bold;      
+}
+
+.envio{
+    background-color:#6126ff;
+    color: #f1d703;     
+}
+
+.limpar{
+   background-color: #f1d703;
+   color:#6126ff; 
+}
+
+.calcanhar{
+    background-color:#6126ff;
+    padding:20px;
+}
+
+.dedinho{
+    color:#ffffff;
+    margin-left:15px;
+    font-size:12px;
+}
